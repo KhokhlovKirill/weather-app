@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Погода</title>
+</head>
+<body>
+<header class="header">
+    <h1 class="invisible">Прогноз погоды в городе Тверь</h1>
+    <div class="selected-place">
+        <h2 class="selected-city">Тверь</h2>
+        <p class="selected-region"></p>
+    </div>
+    <div class="header-current-weather">
+        <span class="header-current-weather-icon"></span>
+        <p class="header-current-temperature">26°</p>
+        <p class="header-current-weather-update-time">Обновлено 13 августа в 17:57</p>
+    </div>
+    <form class="search-city">
+        <input class="search-city-input" type="text" placeholder="Другой город">
+    </form>
+</header>
+<main class="main">
+    <section class="main-current-weather">
+        <h2 class="invisible">Погода сейчас</h2>
+        <div class="main-current-temperature">
+            <h4 class="invisible">Температура</h4>
+            <span class="main-weather-icon"></span>
+            <p class="invisible">Переменная облачность</p>
+            <p class="main-current-temperature-text">26°</p>
+        </div>
+        <div class="main-current-pressure" title="Атмосферное давление">
+            <p class="main-current-pressure-text">Давление: 753 мм рт.ст.</p>
+        </div>
+        <div class="main-current-humidity" title="Влажность">
+            <h4 class="invisible">Влажность</h4>
+            <span class="main-current-humidity-icon"></span>
+            <p class="main-current-humidity-text">58%</p>
+        </div>
+        <div class="main-current-wind" title="Ветер">
+            <h4 class="invisible">Ветер</h4>
+            <span class="main-current-wind-icon"></span>
+            <p class="main-current-wind-text">0,5 м/с, С</p>
+        </div>
+        <div class="main-current-uv-radiation" title="Ультрафиолетовый индекс">
+            <h4 class="invisible">Ультрафиолетовый индекс</h4>
+            <span class="main-current-uv-radiation-icon"></span>
+            <p class="main-current-uv-radiation-text">1, слабый</p>
+        </div>
+        <div class="main-current-sunrise" title="Восход">
+            <h4 class="invisible">Восход</h4>
+            <span class="main-current-sunrise-icon"></span>
+            <p class="main-current-sunrise-text">04:59</p>
+        </div>
+        <div class="main-current-sunset" title="Закат">
+            <h4 class="invisible">Закат</h4>
+            <span class="main-current-sunset-icon"></span>
+            <p class="main-current-sunset-text">20:23</p>
+        </div>
+    </section>
+    <section class="main-weather-forecast">
+        <h2 class="invisible">Прогноз погоды на 7 дней</h2>
+        <article class="main-weather-forecast-article">
+            <h3 class="invisible">Прогноз погоды на субботу 13 августа</h3>
+            <div class="main-weather-forecast-date">
+                <p class="main-weather-forecast-article-month">Август</p>
+                <p class="main-weather-forecast-article-day">13</p>
+                <p class="main-weather-forecast-article-day-of-week">СБ</p>
+            </div>
+            <p class="invisible">Переменная облачность</p>
+            <div class="main-weather-forecast-icon"></div>
+            <p class="main-weather-forecast-temperature" title="Температура воздуха днём">26°</p>
+            <div class="main-weather-forecast-pressure-block" title="Атмосферное давление">
+                <p class="main-weather-forecast-pressure-value">754</p>
+                <p class="main-weather-forecast-pressure-name">мм рт.ст.</p>
+            </div>
+            <p class="main-weather-forecast-wind" title="Ветер">1,3 м/с, СЗ</p>
+            <p class="main-weather-forecast-uv-radiation" title="Ультрафиолетовый индекс">5, средний</p>
+            <div class="main-weather-forecast-sunrise-sunset-block">
+                <p class="main-weather-forecast-sunrise" title="Восход">04:59</p>
+                <div class="main-weather-forecast-sunrise-sunset-separator"></div>
+                <p class="main-weather-forecast-sunset" title="Закат">20:23</p>
+            </div>
+        </article>
+        <article class="main-weather-forecast-article">
+            <h3 class="invisible">Прогноз погоды на воскресенье 14 августа</h3>
+            <div class="main-weather-forecast-date">
+                <p class="main-weather-forecast-article-month">Август</p>
+                <p class="main-weather-forecast-article-day">14</p>
+                <p class="main-weather-forecast-article-day-of-week">ВС</p>
+            </div>
+            <p class="invisible">Переменная облачность</p>
+            <div class="main-weather-forecast-icon"></div>
+            <p class="main-weather-forecast-temperature" title="Температура воздуха днём">28°</p>
+            <div class="main-weather-forecast-pressure-block" title="Атмосферное давление">
+                <p class="main-weather-forecast-pressure-value">750</p>
+                <p class="main-weather-forecast-pressure-name">мм рт.ст.</p>
+            </div>
+            <p class="main-weather-forecast-wind" title="Ветер">1,7 м/с, В</p>
+            <p class="main-weather-forecast-uv-radiation" title="Ультрафиолетовый индекс">5, средний</p>
+            <div class="main-weather-forecast-sunrise-sunset-block">
+                <p class="main-weather-forecast-sunrise" title="Восход">05:01</p>
+                <div class="main-weather-forecast-sunrise-sunset-separator"></div>
+                <p class="main-weather-forecast-sunset" title="Закат">20:20</p>
+            </div>
+        </article>
+        <article class="main-weather-forecast-article">
+            <h3 class="invisible">Прогноз погоды на понедельник 15 августа</h3>
+            <div class="main-weather-forecast-date">
+                <p class="main-weather-forecast-article-month">Август</p>
+                <p class="main-weather-forecast-article-day">15</p>
+                <p class="main-weather-forecast-article-day-of-week">ПН</p>
+            </div>
+            <p class="invisible">Переменная облачность</p>
+            <div class="main-weather-forecast-icon"></div>
+            <p class="main-weather-forecast-temperature" title="Температура воздуха днём">29°</p>
+            <div class="main-weather-forecast-pressure-block" title="Атмосферное давление">
+                <p class="main-weather-forecast-pressure-value">755</p>
+                <p class="main-weather-forecast-pressure-name">мм рт.ст.</p>
+            </div>
+            <p class="main-weather-forecast-wind" title="Ветер">3,5 м/с, ЮВ</p>
+            <p class="main-weather-forecast-uv-radiation" title="Ультрафиолетовый индекс">5, средний</p>
+            <div class="main-weather-forecast-sunrise-sunset-block">
+                <p class="main-weather-forecast-sunrise" title="Восход">05:03</p>
+                <div class="main-weather-forecast-sunrise-sunset-separator"></div>
+                <p class="main-weather-forecast-sunset" title="Закат">20:18</p>
+            </div>
+        </article>
+        <article class="main-weather-forecast-article">
+            <h3 class="invisible">Прогноз погоды на вторник 16 августа</h3>
+            <div class="main-weather-forecast-date">
+                <p class="main-weather-forecast-article-month">Август</p>
+                <p class="main-weather-forecast-article-day">16</p>
+                <p class="main-weather-forecast-article-day-of-week">ВТ</p>
+            </div>
+            <p class="invisible">Переменная облачность</p>
+            <div class="main-weather-forecast-icon"></div>
+            <p class="main-weather-forecast-temperature" title="Температура воздуха днём">29°</p>
+            <div class="main-weather-forecast-pressure-block" title="Атмосферное давление">
+                <p class="main-weather-forecast-pressure-value">749</p>
+                <p class="main-weather-forecast-pressure-name">мм рт.ст.</p>
+            </div>
+            <p class="main-weather-forecast-wind" title="Ветер">4,7 м/с, ЮВ</p>
+            <p class="main-weather-forecast-uv-radiation" title="Ультрафиолетовый индекс">4, средний</p>
+            <div class="main-weather-forecast-sunrise-sunset-block">
+                <p class="main-weather-forecast-sunrise" title="Восход">05:05</p>
+                <div class="main-weather-forecast-sunrise-sunset-separator"></div>
+                <p class="main-weather-forecast-sunset" title="Закат">20:16</p>
+            </div>
+        </article>
+        <article class="main-weather-forecast-article">
+            <h3 class="invisible">Прогноз погоды на среду 17 августа</h3>
+            <div class="main-weather-forecast-date">
+                <p class="main-weather-forecast-article-month">Август</p>
+                <p class="main-weather-forecast-article-day">17</p>
+                <p class="main-weather-forecast-article-day-of-week">СР</p>
+            </div>
+            <p class="invisible">Переменная облачность</p>
+            <div class="main-weather-forecast-icon"></div>
+            <p class="main-weather-forecast-temperature" title="Температура воздуха днём">29°</p>
+            <div class="main-weather-forecast-pressure-block" title="Атмосферное давление">
+                <p class="main-weather-forecast-pressure-value">752</p>
+                <p class="main-weather-forecast-pressure-name">мм рт.ст.</p>
+            </div>
+            <p class="main-weather-forecast-wind" title="Ветер">4,9 м/с, ЮВ</p>
+            <p class="main-weather-forecast-uv-radiation" title="Ультрафиолетовый индекс">5, средний</p>
+            <div class="main-weather-forecast-sunrise-sunset-block">
+                <p class="main-weather-forecast-sunrise" title="Восход">05:07</p>
+                <div class="main-weather-forecast-sunrise-sunset-separator"></div>
+                <p class="main-weather-forecast-sunset" title="Закат">20:13</p>
+            </div>
+        </article>
+        <article class="main-weather-forecast-article">
+            <h3 class="invisible">Прогноз погоды на четверг 18 августа</h3>
+            <div class="main-weather-forecast-date">
+                <p class="main-weather-forecast-article-month">Август</p>
+                <p class="main-weather-forecast-article-day">18</p>
+                <p class="main-weather-forecast-article-day-of-week">ЧТ</p>
+            </div>
+            <p class="invisible">Переменная облачность</p>
+            <div class="main-weather-forecast-icon"></div>
+            <p class="main-weather-forecast-temperature" title="Температура воздуха днём">29°</p>
+            <div class="main-weather-forecast-pressure-block" title="Атмосферное давление">
+                <p class="main-weather-forecast-pressure-value">752</p>
+                <p class="main-weather-forecast-pressure-name">мм рт.ст.</p>
+            </div>
+            <p class="main-weather-forecast-wind" title="Ветер">4,9 м/с, ЮВ</p>
+            <p class="main-weather-forecast-uv-radiation" title="Ультрафиолетовый индекс">5, средний</p>
+            <div class="main-weather-forecast-sunrise-sunset-block">
+                <p class="main-weather-forecast-sunrise" title="Восход">05:09</p>
+                <div class="main-weather-forecast-sunrise-sunset-separator"></div>
+                <p class="main-weather-forecast-sunset" title="Закат">20:11</p>
+            </div>
+        </article>
+        <article class="main-weather-forecast-article">
+            <h3 class="invisible">Прогноз погоды на пятницу 19 августа</h3>
+            <div class="main-weather-forecast-date">
+                <p class="main-weather-forecast-article-month">Август</p>
+                <p class="main-weather-forecast-article-day">19</p>
+                <p class="main-weather-forecast-article-day-of-week">ПТ</p>
+            </div>
+            <p class="invisible">Переменная облачность</p>
+            <div class="main-weather-forecast-icon"></div>
+            <p class="main-weather-forecast-temperature" title="Температура воздуха днём">30°</p>
+            <div class="main-weather-forecast-pressure-block" title="Атмосферное давление">
+                <p class="main-weather-forecast-pressure-value">753</p>
+                <p class="main-weather-forecast-pressure-name">мм рт.ст.</p>
+            </div>
+            <p class="main-weather-forecast-wind" title="Ветер">5,3 м/с, В</p>
+            <p class="main-weather-forecast-uv-radiation" title="Ультрафиолетовый индекс">5, средний</p>
+            <div class="main-weather-forecast-sunrise-sunset-block">
+                <p class="main-weather-forecast-sunrise" title="Восход">05:11</p>
+                <div class="main-weather-forecast-sunrise-sunset-separator"></div>
+                <p class="main-weather-forecast-sunset" title="Закат">20:08</p>
+            </div>
+        </article>
+    </section>
+</main>
+<footer class="footer">
+    <p class="footer-developer-info">Designed by <a href="https://github.com/KhokhlovKirill">Khokhlov Kirill</a> |
+        Email: <a href="mailto:support@khokhlov.tk">support@khokhlov.tk</a></p>
+</footer>
+</body>
+</html>
